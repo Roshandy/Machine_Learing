@@ -43,3 +43,4 @@ print(type(name))
 print(type(age))
 print(f"Hello {name}")
 print(f"you are {age} years old")
+
