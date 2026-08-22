@@ -1,3 +1,6 @@
+import time
+
+
 full_name = "Bro Code"
 age = 25
 gpa = 3.8
@@ -44,6 +47,7 @@ print(type(age))
 print(f"Hello {name}")
 print(f"you are {age} years old")
 
+
 # if语句(注意语句顺序，一但先满足条件，后面的语句无效)
 has_ticket = True
 price = 10.00
@@ -68,3 +72,96 @@ else:
     print(f"The tciket price for an child is ${price * 0.5}")
 
 
+# 逻辑运算符 or and not
+temp = 30
+is_raining = False
+is_sunny = True
+
+if temp > 35 or temp < 0 or is_raining:
+    print("The outdoor event is cancelled")
+else:
+    print("The outdoor event is still scheduled")
+
+if temp >= 28 and is_sunny:
+    print("It is HOT outside")
+    print("It is SUNNY")
+elif temp <= 0 and is_sunny:
+    print("It is COLD outside")
+    print("It is SUNNY")
+elif 0 < temp < 28 and is_sunny:
+    print("It is WARM outside")
+    print("It is SUNNY")
+elif 0 < temp < 28 and not is_sunny:
+    print("It is WARM outside")
+    print("It is CLOUDY")
+
+
+# while
+while name == "":
+    name = input("Enter your name: ")
+while age < 0:
+    age = int(input("Enter your age: "))
+
+print(f"Hello {name}!")
+print(f"You are {age} years old!")
+
+
+# for
+name_new = "han jiandong"
+for letter in name_new:
+    print(letter,end="-")
+
+for i in range(10):
+    print(i)
+for i in range(1,11):
+    print(i)
+for i in range(1,11,2):
+    print(i)
+
+for i in range(10, 0, -1):
+    print(i)
+    #time.sleep(1)
+print("HAPPY NEW YEAR!")
+
+
+# List [] 列表
+fruits = ["apple", "orange", "banana", "coconut"]
+# fruits[0] = "mango"
+# fruits.append("mango")
+# fruits.remove("banana")
+# fruits.pop(0) #删除索引处的元素
+# fruits.clear()
+
+print(fruits)
+print(fruits[0])
+
+for fruit in fruits:
+    print(fruit, end="")
+
+
+# Tuple () 元组(元素不可变)
+fruits_t = ("apple", "orange", "banana", "coconut")
+for fruit in fruits:
+    print(fruit, end="")
+
+# Set {} 集合(元素无序不重复，可以添加和删除，但不能重复，也不能通过索引访问)
+fruits_s = {"apple", "orange", "banana", "coconut"}
+# fruits_s.add("mango")
+# fruits_s.remove("apple")
+
+for fruit in fruits:
+    print(fruit, end="") # 每次输出顺序不一致
+
+fruit = input("Enter a fruit to saarch for: ")
+
+if fruit in fruits_s:
+    print(f"{fruit} was found")
+else:
+    print(f"{fruit} was not found")
+
+# function
+def happy_birthday(name, age):
+    print(f"Happy birthday to {name}!")
+    print(f"You are {age} years old! ")
+
+happy_birthday("han", 24)
