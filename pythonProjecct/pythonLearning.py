@@ -163,5 +163,7 @@ else:
 def happy_birthday(name, age):
     print(f"Happy birthday to {name}!")
     print(f"You are {age} years old! ")
+    return name
 
-happy_birthday("han", 24)
+names = happy_birthday("han", 24)
+print(names)
