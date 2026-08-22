@@ -44,3 +44,27 @@ print(type(age))
 print(f"Hello {name}")
 print(f"you are {age} years old")
 
+# if语句(注意语句顺序，一但先满足条件，后面的语句无效)
+has_ticket = True
+price = 10.00
+
+if has_ticket:
+    print("You may enter, you habe a ticket")
+else:
+    print("You need to buy a ticket")
+
+if age >= 65:
+    print("You are a senior citizen")
+    print(f"The tciket price for a senior citizen is ${price * 0.75}")
+elif age >= 18:
+    print("You are an adult")
+    print(f"The tciket price for an audlt is ${price}")
+elif age < 0:
+    print("You haven't been born yet")
+elif age == 0:
+    print("You were just born")
+else:
+    print("You are an child")
+    print(f"The tciket price for an child is ${price * 0.5}")
+
+
