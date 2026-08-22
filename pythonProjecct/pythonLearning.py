@@ -160,10 +160,10 @@ else:
     print(f"{fruit} was not found")
 
 # function
-def happy_birthday(name, age):
+def happy_birthday(first_name, last_name, age):
     print(f"Happy birthday to {name}!")
     print(f"You are {age} years old! ")
-    return name
+    return first_name + " " + last_name
 
-names = happy_birthday("han", 24)
+names = happy_birthday("han", "jiandong", 24)
 print(names)
