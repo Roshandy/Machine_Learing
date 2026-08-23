@@ -1,0 +1,12 @@
+[
+  {"EmployeeID": 101, "Name": "Alice Johnson", "Department": "Engineering", "Salary": 75000, "HireDate": "2020-03-15", "FullTime": true},
+  {"EmployeeID": 102, "Name": "Bob Smith", "Department": "Marketing", "Salary": 68000, "HireDate": "2019-07-22", "FullTime": true},
+  {"EmployeeID": 103, "Name": "Carol Davis", "Department": "Engineering", "Salary": null, "HireDate": "2021-01-10", "FullTime": false},
+  {"EmployeeID": 104, "Name": "David Brown", "Department": "Finance", "Salary": 82000, "HireDate": "2018-11-01", "FullTime": true},
+  {"EmployeeID": 105, "Name": "Eve Wilson", "Department": "Marketing", "Salary": 59000, "HireDate": "2022-06-05", "FullTime": false},
+  {"EmployeeID": 106, "Name": "Frank Miller", "Department": "Engineering", "Salary": 72000, "HireDate": "2020-09-12", "FullTime": true},
+  {"EmployeeID": 107, "Name": "Grace Lee", "Department": "Human Resources", "Salary": 63000, "HireDate": "2019-12-03", "FullTime": true},
+  {"EmployeeID": 108, "Name": "Henry Taylor", "Department": "Finance", "Salary": 79000, "HireDate": "2021-08-19", "FullTime": false},
+  {"EmployeeID": 109, "Name": "Ivy Chen", "Department": "Engineering", "Salary": 71000, "HireDate": "2022-02-28", "FullTime": true},
+  {"EmployeeID": 110, "Name": "Jack White", "Department": "Marketing", "Salary": null, "HireDate": "2023-01-14", "FullTime": true}
+]

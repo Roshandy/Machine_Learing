@@ -1,0 +1,14 @@
+EmployeeID,Name,Department,Salary,HireDate,FullTime
+101,Alice Johnson,Engineering,75000,2020-03-15,TRUE
+101,Alice Johnson,Engineering,75000,2020-03-15,TRUE
+101,Alice Johnson,Engineering,75000,2020-03-15,TRUE
+101,Alice Johnson,Engineering,75000,2020-03-15,TRUE
+102,Bob Smith,Marketing,68000,2019-07-22,TRUE
+103,Carol Davis,Engineering,,2021-01-10,FALSE
+104,David Brown,Finance,82000,2018-11-01,TRUE
+105,Eve Wilson,Marketing,59000,2022-06-05,FALSE
+106,Frank Miller,Engineering,72000,2020-09-12,TRUE
+107,Grace Lee,Human Resources,63000,2019-12-03,TRUE
+108,Henry Taylor,Finance,79000,2021-08-19,FALSE
+109,Ivy Chen,Engineering,71000,2022-02-28,TRUE
+110,Jack White,Marketing,,2023-01-14,TRUE
